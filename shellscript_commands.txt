@@ -1,0 +1,66 @@
+Navigation:
+•	cd: Change directory
+•	ls: List directory contents
+•	pwd: Print working directory
+
+File Operations:
+•	cp: Copy files or directories
+•	mv: Move or rename files or directories
+•	rm: Remove files or directories
+•	touch: Create an empty file
+
+Directory Operations:
+•	mkdir: Create a new directory
+•	rmdir: Remove an empty directory
+
+Text Processing:
+•	cat: Concatenate and display the content of files
+• echo: display a line of text
+•	grep: Search for a pattern in files
+• awk: pattern scanning and processing
+• wc: count work,newline, byte for each files
+•	sed: Stream editor for filtering and transforming text
+
+File Viewing:
+•	less: Display contents of a file one screen at a time
+•	more: Display contents of a file one screen at a time (less feature-rich than less)
+•	nano or vim: Text editors for creating or editing files
+
+System Information:
+•	uname: Print system information
+•	df: Display disk space usage
+•	free: Display amount of free and used memory in the system
+•	top or htop: Display dynamic view of system processes
+
+User Management:
+•	whoami: Print the current username
+•	passwd: Change user password
+•	useradd: Add a new user
+•	userdel: Delete a user
+
+Package Management (for package-based Linux distributions):
+•	apt (Debian/Ubuntu): Advanced Package Tool
+•	yum (Red Hat/Fedora): Yellowdog Updater Modified
+•	zypper (openSUSE): Command-line package management tool
+
+Network:
+•	ifconfig or ip: Display and configure network interfaces
+•	ping: Test network connectivity
+•	traceroute or tracepath: Print the route packets take to network host
+
+Process Management:
+•	ps: Display information about running processes
+•	kill: Terminate a process
+•	killall: Kill processes by name
+	
+ Permissions:
+•	chmod: Change file permissions
+•	chown: Change file owner and group
+
+command history:
+• history
+
+Data transfer:
+• curl: transfer a url
+• wget: the non-interactive network downloader
+
