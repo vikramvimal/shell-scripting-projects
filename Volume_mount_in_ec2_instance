@@ -1,0 +1,21 @@
+Commands Used: 
+
+df -h
+
+Lists all the block devices in the Linux Machine:
+lsblk 
+
+Check if there is any file system on new EBS Volume:
+file -s /dev/xvdf
+file -s /dev/nvme1n1
+(If you see "Data", meaning you need to setup file system for this block device.)
+
+Create a file system on volume to mount it to EC2:
+mkfs -t xfs /dev/xvdf
+mkfs -t ext4 /dev/nvme1n1
+
+Create new directory:
+mkdir new-volume
+
+Mount volume to EC2 Instance:
+mount /dev/nvme1n1 /new-volume
