@@ -1,0 +1,35 @@
+/ (Root Directory): The top-level directory in the Linux file system hierarchy. Everything in Linux is under this directory.
+
+/bin (Binaries): Essential binary executables are stored here. These binaries are necessary for system boot and repair.
+
+/boot (Boot files): Contains files necessary for the boot process, such as the Linux kernel, boot loader configuration, and initial ramdisk.
+
+/dev (Device files): Contains device files representing hardware devices on the system.
+
+/etc (Configuration files): Contains system-wide configuration files for various programs and services.
+
+/home (User home directories): Each user typically has a subdirectory here for their personal files and configurations.
+
+/lib (Libraries): Contains shared libraries needed by programs in /bin and /sbin.
+
+/media (Removable media): Mount points for removable media devices like USB drives and external hard disks.
+
+/mnt (Mount points): Temporary mount points for mounting filesystems.
+
+/opt (Optional packages): Typically used for installing third-party software packages.
+
+/proc (Process information): A virtual filesystem that provides information about running processes and system information.
+
+/root (Root user home directory): Home directory for the root user.
+
+/sbin (System binaries): Contains binary executables used for system administration tasks.
+
+/srv (Service data): Contains data for services provided by the system.
+
+/sys (Sysfs): A virtual filesystem that exposes information about devices and drivers in the kernel.
+
+/tmp (Temporary files): A directory for temporary files created by programs and users.
+
+/usr (User programs): Contains user-accessible programs and data.
+
+/var (Variable data): Contains variable data files, such as logs, spool files, and temporary files.
